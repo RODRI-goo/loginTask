@@ -1,0 +1,16 @@
+## 1 clonar repositorio
+ git clone blah.com 
+
+## 2 crear un entorno virtual
+python -m venv {nombre de tu entorno}
+python -m venv venv
+
+## 3 Activar el entorno 
+source /venv/Scripts/activate
+
+cd /venv/Scripts
+./activate
+
+#4 crear un archivo de requirements.txt
+adentro estan las librerias que vamos a usar
+pip install -r requirements.txt 
